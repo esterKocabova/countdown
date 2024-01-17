@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    background-image: url(./img/clock.jpeg);
+    background-size: cover;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;  
+    padding: 3rem;
+    padding-top: 4rem;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+
+.waiting {
+    height: 50vh;
+}
